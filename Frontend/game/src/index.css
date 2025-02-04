@@ -1,0 +1,23 @@
+body {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  margin-top: 50px;
+}
+
+.click-button {
+  padding: 15px 30px;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  transition: transform 0.1s;
+}
+
+.click-button:active {
+  transform: scale(0.95);
+}
