@@ -3,7 +3,7 @@ import ClickButton from "./Components/ClickButton";
 import axios from "axios";
 
 const API_URL = "http://localhost:5000";
-const USER_ID = "test-user-123"; // Static user ID for simplicity
+const USER_ID = "test-user-123"; 
 
 function App() {
   const [counter, setCounter] = useState(0);
